@@ -71,6 +71,26 @@ input[type="submit"] {
   font-weight: bold;
   cursor: pointer; }
 
+/* styling for woocommerce */
+/*  product page */
+.woocommerce div.product div.images,
+.woocommerce #content div.product div.images,
+.woocommerce-page div.product div.images,
+.woocommerce-page #content div.product div.images {
+  width: 20%; }
+
+.woocommerce div.product div.summary,
+.woocommerce #content div.product div.summary,
+.woocommerce-page div.product div.summary,
+.woocommerce-page #content div.product div.summary {
+  width: 76%; }
+
+.product .product-addon .addon-name {
+  font-size: 22px;
+  line-height: 26px; }
+.product .product-addon p.form-row {
+  margin-bottom: 10px; }
+
 /*** slidebar in oshine slidebar is above main content *** */
 /*  header stuff - here */
 /*** styling of content */
