@@ -91,6 +91,9 @@ input[type="submit"] {
 .product .product-addon p.form-row {
   margin-bottom: 10px; }
 
+.single-product .product_meta {
+  display: none; }
+
 /*** slidebar in oshine slidebar is above main content *** */
 /*  header stuff - here */
 /*** styling of content */
