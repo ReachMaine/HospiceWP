@@ -68,3 +68,9 @@ input[type="submit"] {
 	font-weight: bold;
 	cursor: pointer;
 }
+
+#page-content {
+	a:not(.tatsu-button) {
+		color: $hospice-content-link;
+	}
+}

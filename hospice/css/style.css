@@ -71,6 +71,9 @@ input[type="submit"] {
   font-weight: bold;
   cursor: pointer; }
 
+#page-content a:not(.tatsu-button) {
+  color: #5b6ec1; }
+
 /* styling for woocommerce */
 /*  product page */
 .woocommerce div.product div.images,
