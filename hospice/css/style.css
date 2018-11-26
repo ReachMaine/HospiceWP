@@ -41,12 +41,10 @@ p:empty {
   .title-module-wrap.page-title-module-custom h1.page-title-custom {
     margin-bottom: 0px; }
 
-.left-sidebar-page,
-.right-sidebar-page,
-.no-sidebar-page .be-section-pad:first-child,
-.page-template-page-940-php #content,
-.no-sidebar-page #content-wrap,
-.portfolio-archives.no-sidebar-page #content-wrap {
+.home .title-module-wrap.page-title-module-custom {
+  display: none; }
+
+.no-sidebar-page #content-wrap.no-page-builder {
   padding-top: 40px;
   padding-bottom: 40px; }
 
