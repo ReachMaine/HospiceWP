@@ -103,7 +103,9 @@ input[type="submit"] {
   padding-top: 45px;
   padding-bottom: 45px; }
 
-/** sidebar
+/** sidebar */
+.sidebar-widgets .widget_nav_menu.widget ul.menu li.menu-item.current_page_item a {
+  color: #5b6ec1; }
 
 /** footer **/
 #reach-bottom-cta {

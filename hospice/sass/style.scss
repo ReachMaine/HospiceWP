@@ -25,7 +25,16 @@ Version: 1.2
 	padding-top: 45px;  // small at mobile in media
 	padding-bottom: 45px;
 }
-/** sidebar
+/** sidebar */
+.sidebar-widgets {
+	.widget_nav_menu.widget {
+		ul.menu {
+			li.menu-item.current_page_item a {
+				color: $sidebar-menu-active;
+			}
+		}
+	}
+}
 
 /** footer **/
 
