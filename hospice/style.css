@@ -95,23 +95,15 @@ input[type="submit"] {
 .single-product .product_meta {
   display: none; }
 
-/* styling for gravity forms. */
+/* styling for gravity forms */
 .gform_wrapper form .gform_body ul.gform_fields li.gfield textarea {
   background-color: white; }
 .gform_wrapper form .gform_body ul.gform_fields li.gfield.reach_gf_hide_title label.gfield_label {
   display: none; }
-.gform_wrapper form .gform_footer input[type=submit] {
-  background-color: #5b6ec1; }
-.gform_wrapper form .gform_footer input[type=submit]:hover {
-  background-color: #cbcfe4; }
-.gform_wrapper form.rmm-gform-grid-lines ul.gform_fields li.gfmc-column {
+.gform_wrapper form.rmm-gform-grid-lines .gform_body ul.gform_fields li.gfmc-column {
   text-align: center; }
-  .gform_wrapper form.rmm-gform-grid-lines ul.gform_fields li.gfmc-column ul {
-    margin-top: 0px; }
-    .gform_wrapper form.rmm-gform-grid-lines ul.gform_fields li.gfmc-column ul .gfield {
-      margin-top: 0px; }
-    .gform_wrapper form.rmm-gform-grid-lines ul.gform_fields li.gfmc-column ul .gfield_checkbox label {
-      width: 100%; }
+  .gform_wrapper form.rmm-gform-grid-lines .gform_body ul.gform_fields li.gfmc-column .gfield_checkbox label {
+    width: 100%; }
 
 /*** slidebar in oshine slidebar is above main content *** */
 /*  header stuff - here */

@@ -1,0 +1,26 @@
+/* styling for gravity forms. */
+.gform_wrapper {
+  form {
+    .gform_heading {
+
+    }
+    .gform_body {
+      ul.gform_fields {
+        li.gfield {
+          textarea {
+            background-color: white;
+          }
+        }
+
+        li.gfield.reach_gf_hide_title {
+          label.gfield_label {
+            display: none;
+          }
+        }
+      }
+    }
+    .gform_footer {
+
+    }
+  }
+}
