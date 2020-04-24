@@ -11,6 +11,9 @@
             background-color: white;
           }
         }
+        li.gfield.rmm-bottom-close {
+          margin-bottom: 0px;
+        }
 
         li.gfield.reach_gf_hide_title {
           label.gfield_label {
@@ -27,7 +30,10 @@
         background-color: $hospice-content-link;
       }
       input[type=submit]:hover {
-        background-color: $hospice-light-button;
+        background-color: white;
+        color: $hospice-content-link;
+        border: 2px solid $hospice-content-link;
+
       }
     } // gform_footer
 
