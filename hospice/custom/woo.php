@@ -21,3 +21,30 @@ function woo_remove_product_tabs( $tabs ) {
     return $tabs;
 
 }
+/**
+ * @snippet       Close Ship to Different Address @ Checkout Page
+ * @how-to        Get CustomizeWoo.com FREE
+ * @author        Rodolfo Melogli
+ * @testedwith    WooCommerce 3.9
+ * @donate $9     https://businessbloomer.com/bloomer-armada/
+ */
+add_filter( 'woocommerce_ship_to_different_address_checked', '__return_false' );
+
+
+/**
+ * @snippet       Variable Product Price Range:  $$$min_price"
+ * @how-to        Get CustomizeWoo.com FREE
+ * @sourcecode    https://businessbloomer.com/?p=275
+ * @author        Rodolfo Melogli
+ * @compatible    WooCommerce 3.5.4
+ * @donate $9     https://businessbloomer.com/bloomer-armada/
+ */
+add_filter( 'woocommerce_variable_price_html', 'bbloomer_variation_price_format_min', 9999, 2 );
+function bbloomer_variation_price_format_min( $price, $product ) {
+   if ($product->get_id() == 18434) { // only for notecards.
+     $prices = $product->get_variation_prices( true );
+     $min_price = current( $prices['price'] );
+     $price = sprintf( __( '%1$s', 'woocommerce' ), wc_price( $min_price ) );
+   }
+   return $price;
+}
